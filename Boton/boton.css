@@ -1,0 +1,42 @@
+.contenedor {
+    width: 35.5rem;
+    height: 40rem;
+    border: 1px solid black;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrito-1 {
+    width: 25rem;
+    margin: auto;
+    height: 10rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;  /* Color de fondo por defecto */
+}
+
+.color {
+    background-color: cornflowerblue;  /* Color cuando se hace click */
+}
+
+.botonsito {
+    width: 10rem;
+    height: 60px;
+    background-color: rgb(173, 148, 197);
+    color: aliceblue;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  /* Cambia el cursor cuando se pasa sobre el botón */
+}
